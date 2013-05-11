@@ -11,7 +11,7 @@ Give your WordPress site wind.
 
 == Description ==
 
-Farticles will makes your WordPress site fart when a page is scrolled.
+Farticles makes your WordPress site fart when a page is scrolled.
 
 Use with care as websites playing any kind of audio without a warning or permission from the user are generally obnoxious and annoying.
 
