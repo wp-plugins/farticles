@@ -14,7 +14,6 @@ Give your WordPress site wind.
 Farticles makes your WordPress site fart when a page is scrolled.
 
 Now with added backend and login farts
-======================================
 
 **Important**
 
