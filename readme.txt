@@ -36,7 +36,7 @@ That is the MP3 & ogg audio
 
 = It doesn't work on my iPad =
 
-The fartscroll.js script could probably be modified to replace the .scroll() function with a touchend event listener when an iPad is used.
+The fartscroll.js script could probably be modified to replace the .scroll() function with a touchend event listener when an iPad is used. May have a look at doing this sometime.
 
 = The github page shows how to configure the number of pixels scrolled before a fart, so where are the settings? =
 
@@ -52,8 +52,13 @@ These might be added as an option in a later version.
 
 == Changelog ==
 
+= 1.0.1 =
+* Prevent the plugin scripts being added on iPad/iPhone/iPod. As the .scroll() function is used, iDevices will not trigger the farts, but in some themes the plugin caused an white div to appear under the footer.
+
 = 1.0.0 =
 * Initial Version
 
 == Upgrade Notice ==
 
+= 1.0.1 =
+Do not add the scripts on iPad/iPhone/iPod as fartscroll.js does not support these and can cause a minor display issue
