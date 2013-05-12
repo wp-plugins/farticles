@@ -1,7 +1,7 @@
 === Farticles ===
 Contributors: numeeja
 Donate link: http://cubecolour.co.uk/donate
-Tags: fart, fartscroll, flatulence, gas, wind, cut the cheese, onion
+Tags: fart, fartscroll, flatulence, gas, wind, cut the cheese, onion, cubecolour
 Requires at least: 3.5
 Tested up to: 3.5.1
 Stable tag: 1.0.1
@@ -36,7 +36,7 @@ That is the MP3 & ogg audio
 
 = It doesn't work on my iPad =
 
-The fartscroll.js script could probably be modified to replace the .scroll() function with a touchend event listener when an iPad is used. May have a look at doing this sometime.
+The fartscroll.js script could probably be modified to replace the .scroll() function with a touchend event listener when an iPad is used. May have a look at doing this sometime. For now the plugin will not work on apple iDevices.
 
 = The github page shows how to configure the number of pixels scrolled before a fart, so where are the settings? =
 
@@ -61,4 +61,4 @@ These might be added as an option in a later version.
 == Upgrade Notice ==
 
 = 1.0.1 =
-Do not add the scripts on iPad/iPhone/iPod as fartscroll.js does not support these and can cause a minor display issue
+Minor display issue in iPad for some themes cleaned up
