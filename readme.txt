@@ -61,4 +61,4 @@ These might be added as an option in a later version.
 == Upgrade Notice ==
 
 = 1.0.1 =
-Minor display issue in iPad for some themes cleaned up
+Minor display issue in iPad cleaned up (fartscroll.js does not support iPad anyway)
