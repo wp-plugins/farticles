@@ -4,7 +4,7 @@ Plugin Name: Farticles
 Plugin URI: http://wordpress.org/extend/plugins/farticles/
 Description: Gives your WordPress site flatulence.
 Author: Michael Atkins
-Version: 1.0.0
+Version: 1.0.1
 Author URI: http://cubecolour.co.uk/
 License: GPL
 */
@@ -32,26 +32,24 @@ function cc_frt_meta_links( $links, $file ) {
 // ==============================================
 
 function cc_fartscroll_script() {
-	wp_register_script('fartscroll', plugins_url( 'fartscroll/fartscroll.js', __FILE__ ), array('jquery'));  
-	wp_enqueue_script('fartscroll'); 
+	wp_enqueue_script('fartscroll', plugins_url( 'fartscroll/fartscroll.js', __FILE__ ), array('jquery'));	
 }
 
-add_action( 'wp_enqueue_scripts', 'cc_fartscroll_script' );
-
 function cc_farthead_js() {
+	
+	$pixeldist= 400;
+
     echo "
     <script>
         jQuery(document).ready(function($){
-            fartscroll(" . "400" . ");
+            fartscroll(" . $pixeldist . ");
         });
         </script>
     ";
 }
-// Add hook for head
-add_action('wp_head', 'cc_farthead_js');
 
-// ==============================================
-//	SETTINGS (to do!)
-// ==============================================
-
-// Settings page to set the number pixels to scroll before the next fart is triggered
+// Only attempt to fart on anything that isn't an apple iDevice
+if (!(strstr($_SERVER['HTTP_USER_AGENT'],'iPad') && strstr($_SERVER['HTTP_USER_AGENT'],'iPhone') && strstr($_SERVER['HTTP_USER_AGENT'],'iPod'))) {
+	add_action('wp_head', 'cc_farthead_js');
+	add_action( 'wp_enqueue_scripts', 'cc_fartscroll_script' );
+}
