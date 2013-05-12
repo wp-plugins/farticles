@@ -42,7 +42,7 @@ It does. You probably didn't notice the instruction that you need to visit your 
 = What is fartscroll.js? =
 
 The fartscroll.js script came from the [the onion](https://github.com/theonion/fartscroll.js/ "The Onion")
-[More info](http://theonion.github.io/fartscroll.js "The Onion")
+- [More info](http://theonion.github.io/fartscroll.js "The Onion")
 
 = Whats with the base 64 stuff in the js file? =
 
