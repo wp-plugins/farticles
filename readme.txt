@@ -31,7 +31,7 @@ This plugin uses the fartscroll.js script from the onion
 
 1. Upload the 'Farticles' folder to the '/wp-content/plugins/' directory
 1. Activate the plugin through the 'Plugins' menu in WordPress
-1. Visit the setting -> general and set where your would like your farts to appear
+1. Visit settings -> general and set where your would like your farts to appear
 
 == Frequently Asked Questions ==
 
