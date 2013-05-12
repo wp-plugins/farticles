@@ -17,13 +17,11 @@ Now with added backend and login farts
 
 **Important**
 
-After installing, visit your general options page to set where you would like to fart.
+After installing, you will need to visit your general options page to set where you would like to fart.
 
-* Frontend Farts
-
-* Backend Farts
-
-* Login Farts
+*   Frontend Farts
+*   Backend Farts
+*   Login Farts
 
 > Use with care as websites playing any kind of audio without a warning or permission from the user are generally obnoxious and annoying.
 
@@ -36,6 +34,10 @@ This plugin uses the fartscroll.js script from the onion
 1. Visit settings -> general and set where your would like your farts to appear
 
 == Frequently Asked Questions ==
+
+= Why doesn't it work? =
+
+It does. You probably didn't follow the instruction to visit your general options page to set where you would like to fart.
 
 = What is fartscroll.js? =
 
