@@ -13,6 +13,8 @@ Give your WordPress site wind.
 
 Farticles makes your WordPress site fart when a page is scrolled.
 
+Now with added backend and login farts
+
 Use with care as websites playing any kind of audio without a warning or permission from the user are generally obnoxious and annoying.
 
 This plugin uses the fartscroll.js script from the onion
@@ -21,6 +23,7 @@ This plugin uses the fartscroll.js script from the onion
 
 1. Upload the 'Farticles' folder to the '/wp-content/plugins/' directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
+3. Visit the setting -> general and set where your would like your farts to appear
 
 == Frequently Asked Questions ==
 
@@ -44,13 +47,16 @@ The value is set to 400px by default. I might add a config page for selecting a 
 
 = I want my admin area and/or login page to fart as well =
 
-These might be added as an option in a later version.
+This has been added in version 1.1.0
 
 == Screenshots ==
 
-= There are no Screenshots as there is no settings page yet and this plugin does not make any visual changes to a site =
+1. Options are set in Settings &rarr; General
 
 == Changelog ==
+
+= 1.1.0 =
+* Section added to general settings to enable frontend, backend and login farts
 
 = 1.0.1 =
 * Prevent the plugin scripts being added on iPad/iPhone/iPod. As the .scroll() function is used, iDevices will not trigger the farts, but in some themes the plugin caused an white div to appear under the footer.
@@ -59,6 +65,9 @@ These might be added as an option in a later version.
 * Initial Version
 
 == Upgrade Notice ==
+
+= 1.1.0 =
+Section added to general settings to enable frontend, backend and login farts
 
 = 1.0.1 =
 Minor display issue in iPad cleaned up (fartscroll.js does not support iPad anyway)
