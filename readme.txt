@@ -14,24 +14,31 @@ Give your WordPress site wind.
 Farticles makes your WordPress site fart when a page is scrolled.
 
 Now with added backend and login farts
+======================================
 
-Use with care as websites playing any kind of audio without a warning or permission from the user are generally obnoxious and annoying.
+**Important**
+
+Visit your general options page to set where you would like to fart.
+* Frontend Farts
+* Backend Farts
+* Login Farts
+
+> Use with care as websites playing any kind of audio without a warning or permission from the user are generally obnoxious and annoying.
 
 This plugin uses the fartscroll.js script from the onion
 
 == Installation ==
 
 1. Upload the 'Farticles' folder to the '/wp-content/plugins/' directory
-2. Activate the plugin through the 'Plugins' menu in WordPress
-3. Visit the setting -> general and set where your would like your farts to appear
+1. Activate the plugin through the 'Plugins' menu in WordPress
+1. Visit the setting -> general and set where your would like your farts to appear
 
 == Frequently Asked Questions ==
 
 = What is fartscroll.js? =
 
-The fartscroll.js script came from the onion:
-https://github.com/theonion/fartscroll.js
-More info at http://theonion.github.io/fartscroll.js
+The fartscroll.js script came from the [the onion](https://github.com/theonion/fartscroll.js/ "The Onion")
+[More info](http://theonion.github.io/fartscroll.js "The Onion")
 
 = Whats with the base 64 stuff in the js file? =
 
