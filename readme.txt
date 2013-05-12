@@ -17,9 +17,12 @@ Now with added backend and login farts
 
 **Important**
 
-Visit your general options page to set where you would like to fart.
+After installing, visit your general options page to set where you would like to fart.
+
 * Frontend Farts
+
 * Backend Farts
+
 * Login Farts
 
 > Use with care as websites playing any kind of audio without a warning or permission from the user are generally obnoxious and annoying.
