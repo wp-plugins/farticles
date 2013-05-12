@@ -51,7 +51,7 @@ This has been added in version 1.1.0
 
 == Screenshots ==
 
-1. Options are set in Settings &rarr; General
+1. Options are set in Settings -> General
 
 == Changelog ==
 
