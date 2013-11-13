@@ -3,9 +3,9 @@ Contributors: numeeja
 Donate link: http://cubecolour.co.uk/donate
 Tags: fart, fartscroll, flatulence, gas, wind, cut the cheese, onion, cubecolour
 Requires at least: 3.5
-Tested up to: 3.6
+Tested up to: 3.7.1
 Stable tag: 1.1.0
-License: GPLv3
+License: GPLv2
 
 Give your WordPress site wind.
 
@@ -37,7 +37,7 @@ This plugin uses the fartscroll.js script from the onion
 
 = Why doesn't it work? =
 
-It does. You probably didn't notice the instruction that you need to visit your general options page to set where you would like to fart.
+It does. You probably didn't notice the instruction that you need to visit your general options page to set where you would like your farts.
 
 = What is fartscroll.js? =
 
@@ -50,11 +50,11 @@ That is the MP3 & ogg audio
 
 = It doesn't work on my iPad =
 
-The fartscroll.js script could probably be modified to replace the .scroll() function with a touchend event listener when an iPad is used. May have a look at doing this sometime. For now the plugin will not work on apple iDevices.
+The fartscroll.js script could probably be modified to replace the .scroll() function with a touchend event listener when an iPad is used. I may have a look at doing this sometime, but now the plugin will not work on apple iDevices.
 
 = The github page shows how to configure the number of pixels scrolled before a fart, so where are the settings? =
 
-The value is set to 400px by default. I might add a config page for selecting a value for the interval
+The value is set to 400px by default. I might add a config page for selecting a value for the interval, but the default setting seems OK to me
 
 = I want my admin area and/or login page to fart as well =
 
