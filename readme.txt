@@ -3,7 +3,7 @@ Contributors: numeeja
 Donate link: http://cubecolour.co.uk/donate
 Tags: fart, fartscroll, flatulence, gas, wind, cut the cheese, onion, cubecolour
 Requires at least: 3.5
-Tested up to: 4.0.1
+Tested up to: 4.1
 Stable tag: 1.1.0
 License: GPLv2
 
